@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "node server.js",
-    "build": "next build",
-    "start": "next start -p %PORT%"
+    "build": "next build cross-env",
+    "start": "next start -p 8000"
   },
   "keywords": [],
   "author": "",
